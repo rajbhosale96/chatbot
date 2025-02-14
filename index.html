@@ -13,7 +13,7 @@
       }
       article {
         width: 400px;
-        height: 320px;
+        height: 300px;
         border: 0.5px solid rgba(0, 0, 0, 0.3);
         margin: 30px;
         padding: 45px;
@@ -21,18 +21,16 @@
       h1 {
         color: rgba(0, 0, 0, 0.6);
         font-size: 34px;
-      }
-      .sign-in-msg,
-      #button,
-      h1,
-      .terms-conditions {
+        margin-bottom: 30px;
         font-weight: 300;
       }
+
       .sign-in-msg {
         color: rgba(0, 0, 0, 0.5);
-
+        padding-top: 10px;
         font-size: 18px;
         letter-spacing: 1px;
+        font-weight: 300;
       }
       #button {
         background-color: #4184e1;
@@ -43,17 +41,23 @@
         border-radius: 20px;
         margin-block: 25px;
         font-size: 20px;
+        font-weight: 300;
       }
       .terms-conditions {
         color: rgba(0, 0, 0, 0.3);
         margin-block: 23px;
         font-size: 14px;
+        font-weight: 300;
       }
 
       div {
-        border: 1px solid black;
+        border: 1.5px solid black;
         width: 40px;
         margin-block: 23px;
+      }
+      span {
+        border-top: 2px solid black;
+        padding-block: 20px;
       }
     </style>
 
@@ -62,10 +66,9 @@
   <body>
     <article>
       <h1>Bulid your first chatbot in 10 minutes!</h1>
-      <div></div>
       <p class="sign-in-msg">
-        Have a bot answering questions from customers on your website within 10
-        minutes of signing up for ChatBot.
+        <span>Have</span> a bot answering questions from customers on your
+        website within 10 minutes of signing up for ChatBot.
       </p>
       <p id="button">Try Now &#8594;</p>
       <p class="terms-conditions">
